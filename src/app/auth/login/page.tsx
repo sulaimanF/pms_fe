@@ -1,4 +1,4 @@
-import SignInForm from "@/components/auth/SignInForm";
+import Login from "@/components/auth/Login";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "SignIn",
 };
 
-export default function SignIn() {
-  return <SignInForm />;
+export default function login() {
+  return <Login />;
 }
